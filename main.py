@@ -1,22 +1,21 @@
-x = 2
-print(x == 2) # prints True
-print(x == 3) # prints False
-print(x < 3)  # prints True
+primes = [2, 3, 5, 7]
+for prime in primes:
+  print(prime)
+
+for x in range(5):
+  print(x)  # prints 0, 1, 2, 3, 4
+
+for x in range(3, 6):
+  print(x)  # prints 3, 4, 5
+
+for x in range(3, 8, 2):
+  print(x)  # prints 3, 5, 7
 
 
-name = "John"
-age = 23
-if name == "John" and age == 23:
-  print("Your name is John, and you're also 23 years old.")
-
-if name == "John" or name == "Rick":
-  print("Your name is either John or Rick.")
-
-if name in ["John", "Rick"]:
-  print("Your name is either John or Rick.")
-
-
-x = [1, 2, 3]
-y = [1, 2, 3]
-print(x == y) # prints True
-print(x is y) # prints False  (Unlike ==, "is" compares instances)
+# prints 0, 1, 2, 3, 4
+count = 0
+while count < 5:
+  print(count)
+  count += 1
+else:
+  print("count reached value %d" % count)

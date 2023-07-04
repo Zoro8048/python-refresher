@@ -1,0 +1,82 @@
+{
+  "editor.renderWhitespace": "all",
+  "editor.fontSize": 14,
+  "editor.minimap.enabled": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": false
+  },
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.suggestSelection": "first",
+  "prettier.eslintIntegration": true,
+  "prettier.tslintIntegration": true,
+  "prettier.tabWidth": 2,
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "typescript",
+      "autoFix": true
+    },
+    {
+      "language": "typescriptreact",
+      "autoFix": true
+    }
+  ],
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  // "files.autoSave": "afterDelay",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "breadcrumbs.enabled": true,
+  "editor.renderControlCharacters": true,
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "git.autofetch": true,
+  "python.jediEnabled": false,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.organizeImports": true
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Palenight (Mild Contrast)",
+  "tabnine.experimentalAutoImports": true,
+  "todo-tree.tree.showScanModeButton": false,
+  "jupyter.sendSelectionToInteractiveWindow": false,
+  "python.languageServer": "Microsoft",
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]"
+  ],
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+  "workbench.editor.enablePreview": false,
+  "editor.rename.enablePreview": false,
+  "notebook.diff.enablePreview": false,
+  "eslint.alwaysShowStatus": true,
+  "python.linting.pylintArgs": ["--load-plugins=pylint_django"],
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  }
+}

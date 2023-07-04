@@ -1,8 +1,14 @@
-def welcome():
-  print("Welcome")
+class MyClass:
+  variable = "blah"
 
-def sum_two_numbers(a, b):
-  return a + b
+  def __init__(self, number):
+    self.number = number
 
-welcome()
-print(sum_two_numbers(1, 2))  # prints 3
+  def func(self):
+    print("This is a message inside the class.")
+
+my_object = MyClass(100)
+
+print(my_object.variable)
+print(my_object.number)
+my_object.func()

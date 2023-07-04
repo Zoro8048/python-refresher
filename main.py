@@ -1,19 +1,22 @@
-name = "Keerthan"
-print("Hello, %s!" % name)  # prints "Hello, Keerthan!"
+a_string = "Hello world!"
+print(len(a_string))  # prints 12
 
-age = 24
-print("%s is %d years old" %(name, age))
+print(a_string.count("l"))  # prints 3
 
-my_list = [1, 2, 3]
-print("list: %s" % my_list)
+print(a_string[3:7])  # prints "lo w" (prints from index 3 to 6)
 
 
-# %s - String (or any object with a string representation, like numbers)
+print(a_string[3:7:2])  # prints "l " (prints from index 3 to 6, step 2)
 
-# %d - Integers
+print(a_string[::-1]) # prints "!dlrow olleh" (prints from last to first)
 
-# %f - Floating point numbers
+print(a_string.lower())  # prints "hello world!"
 
-# %.<number of digits>f - Floating point numbers with a fixed amount of digits to the right of the dot.
+print(a_string.upper())  # prints "HELLO WORLD!"
 
-# %x/%X - Integers in hex representation (lowercase/uppercase)
+
+print(a_string.startswith("Hello"))  # prints True
+print(a_string.endswith("random"))  # prints False
+
+
+print(a_string.split(" "))  # prints ["Hello", "world!"]

@@ -1,14 +1,12 @@
-class MyClass:
-  variable = "blah"
+phone_book = {}
+phone_book["John"] = 123243435
+phone_book["Jack"] = 343243242
+phone_book["Jill"] = 4234324345
 
-  def __init__(self, number):
-    self.number = number
+for name, phone in phone_book.items():
+    print("Phone number of %s is %d" %(name, phone))
 
-  def func(self):
-    print("This is a message inside the class.")
-
-my_object = MyClass(100)
-
-print(my_object.variable)
-print(my_object.number)
-my_object.func()
+# Removing a value
+del phone_book["Jack"]
+# or
+phone_book.pop("Jack")

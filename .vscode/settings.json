@@ -60,7 +60,7 @@
   "tabnine.experimentalAutoImports": true,
   "todo-tree.tree.showScanModeButton": false,
   "jupyter.sendSelectionToInteractiveWindow": false,
-  "python.languageServer": "Microsoft",
+  "python.languageServer": "Default",
   "todo-tree.general.tags": [
     "BUG",
     "HACK",

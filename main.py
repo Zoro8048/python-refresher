@@ -1,22 +1,22 @@
-a_string = "Hello world!"
-print(len(a_string))  # prints 12
-
-print(a_string.count("l"))  # prints 3
-
-print(a_string[3:7])  # prints "lo w" (prints from index 3 to 6)
+x = 2
+print(x == 2) # prints True
+print(x == 3) # prints False
+print(x < 3)  # prints True
 
 
-print(a_string[3:7:2])  # prints "l " (prints from index 3 to 6, step 2)
+name = "John"
+age = 23
+if name == "John" and age == 23:
+  print("Your name is John, and you're also 23 years old.")
 
-print(a_string[::-1]) # prints "!dlrow olleh" (prints from last to first)
+if name == "John" or name == "Rick":
+  print("Your name is either John or Rick.")
 
-print(a_string.lower())  # prints "hello world!"
-
-print(a_string.upper())  # prints "HELLO WORLD!"
-
-
-print(a_string.startswith("Hello"))  # prints True
-print(a_string.endswith("random"))  # prints False
+if name in ["John", "Rick"]:
+  print("Your name is either John or Rick.")
 
 
-print(a_string.split(" "))  # prints ["Hello", "world!"]
+x = [1, 2, 3]
+y = [1, 2, 3]
+print(x == y) # prints True
+print(x is y) # prints False  (Unlike ==, "is" compares instances)
